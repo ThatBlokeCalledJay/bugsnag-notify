@@ -1,0 +1,70 @@
+{
+  "manifestVersion": 1,
+  "id": "thatblokecalledjay-bugsnagnotify",
+  "name": "Bugsnag Notify",
+  "version": "1.0.0",
+  "publisher": "ThatBlokeCalledJay",
+  "public": false,
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/ThatBlokeCalledJay/bugsnag-notify"
+  },
+  "links": {
+    "getstarted": {
+      "uri": "https://github.com/ThatBlokeCalledJay/bugsnag-notify/wiki/Getting-Started"
+    },
+    "repository": {
+      "uri": "https://github.com/ThatBlokeCalledJay/bugsnag-notify"
+    },
+    "issues": {
+      "uri": "https://github.com/ThatBlokeCalledJay/bugsnag-notify/issues"
+    }
+  },
+  "scope": [
+    "vso.build"
+  ],
+  "description": "An Azure DevOps release task for notifying Bugsnag of your latest release and it's version.",
+  "categories": [
+    "Azure Pipelines"
+  ],
+  "tags": [
+    "Bugsnag",
+    "Notify",
+    "Release",
+    "Pipeline",
+    "Azure DevOps"
+  ],
+  "content": {
+    "license": {
+      "path": "license.txt"
+    },
+    "details": {
+      "path": "readme.md"
+    }
+  },
+  "icons": {
+    "default": "icon.png"
+  },
+  "contributions": [
+    {
+      "id": "BugsnagNotify",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "BugsnagNotify"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "BugsnagNotify"
+    }
+  ]
+}
