@@ -4,7 +4,7 @@
   "friendlyName": "Bugsnag Notify",
   "description": "An Azure DevOps release task for notifying Bugsnag of your latest release and it's version.",
   "author": "ThatBlokeCalledJay",
-  "helpMarkDown": "[More Information](https://github.com/ThatBlokeCalledJay/set-json-property/wiki)",
+  "helpMarkDown": "[More Information](https://github.com/ThatBlokeCalledJay/bugsnag-notify/wiki)",
   "category": "Azure Pipelines",
   "visibility": [
     "Release"
