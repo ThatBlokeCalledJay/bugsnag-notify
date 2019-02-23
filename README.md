@@ -7,9 +7,11 @@ An Azure DevOps release task for notifying Bugsnag of your latest release and it
 Why not check out my other extensions:  
 
 **On GitHub**
+- [ThatBlokeCalledJay](https://github.com/ThatBlokeCalledJay)
 - [Auto App Version](https://github.com/ThatBlokeCalledJay/auto-app-version)
 - [Bugsnag Auto Version](https://github.com/ThatBlokeCalledJay/bugsnag-auto-version)
 
 **On Visual Studio Marketplace**
+- [ThatBlokeCalledJay](https://marketplace.visualstudio.com/publishers/ThatBlokeCalledJay)
 - [Auto App Version](https://marketplace.visualstudio.com/items?itemName=ThatBlokeCalledJay.thatblokecalledjay-autoappversion)
 - [Bugsnag Auto Version](#)
