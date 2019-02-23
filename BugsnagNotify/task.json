@@ -43,7 +43,7 @@
       "label": "Json property path",
       "type": "string",
       "required": true,
-      "helpMarkDown": "The json path to your Bugsnag AppVersion property. [More Help](https://)",
+      "helpMarkDown": "The json path to your Bugsnag AppVersion property. [More Help](https://github.com/ThatBlokeCalledJay/bugsnag-notify/wiki/Getting-Started)",
       "visibleRule": "AppVersionSource = jsonfile"
     },
     {
