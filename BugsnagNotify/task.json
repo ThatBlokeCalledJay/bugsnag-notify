@@ -14,7 +14,7 @@
   "version": {
     "Major": "1",
     "Minor": "0",
-    "Patch": "0"
+    "Patch": "2"
   },
   "minimumAgentVersion": "2.117.0",
   "instanceNameFormat": "Bugsnag Notify",
@@ -104,8 +104,8 @@
       "label": "Source control provider",
       "type": "pickList",
       "required": true,
-      "helpMarkDown": "Choose your repository provider. For help with 'Azure DevOps Git (unofficial)' [Goto the Getting Started Docs](https://github.com/ThatBlokeCalledJay/bugsnag-auto-version/wiki/Getting-Started). For the other options [Go to the Bugsnag Docs](https://bugsnagbuildapi.docs.apiary.io/)",
-      "visibleRule": "NotifyBugsnag = true && BugsnagSourceControl = true",
+      "helpMarkDown": "Choose your repository provider. For help with 'Azure DevOps Git (unofficial)' [Goto the Getting Started Docs](https://github.com/ThatBlokeCalledJay/bugsnag-notify/wiki/Getting-Started). For the other options [Go to the Bugsnag Docs](https://bugsnagbuildapi.docs.apiary.io/)",
+      "visibleRule": "BugsnagSourceControl = true",
       "defaultValue": "azure-devops-u",
       "options": {
         "github": "GitHub",

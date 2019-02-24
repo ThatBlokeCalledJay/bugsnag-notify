@@ -61,19 +61,20 @@ Write-Host "====================================================================
 
 $bugsnagArgs = ParseBugsnagArgs $bugsnagUrl $bugsnagApiKey $bugsnagBuilderName $bugsnagReleaseStage $bugsnagAutoAssignRelease $bugsnagSourceControl $bugsnagSCProvider $bugsnagSCRepo $bugsnagSCRevision
 
-# ---------------------------------------------------------------- Check Json File
-
-if (!([System.IO.File]::Exists($jsonFile))) {
-    Write-Error "Your json file cannot be found at the specified location: $($jsonFile)"
-    exit 0
-}
-
-if ($null -eq $propertyPath -or $propertyPath.length -lt 1) {
-    Write-Error "Please specify a property path."
-    exit 0
-}
-
 if ($versionSource -eq "jsonfile") {
+
+    # ---------------------------------------------------------------- Check Json File
+
+    if (!([System.IO.File]::Exists($jsonFile))) {
+        Write-Error "Your json file cannot be found at the specified location: $($jsonFile)"
+        exit 0
+    }
+
+    if ($null -eq $propertyPath -or $propertyPath.length -lt 1) {
+        Write-Error "Please specify a property path."
+        exit 0
+    }
+
     # ---------------------------------------------------------------- Parse File Version
 
     $jsonInput = Get-Content $jsonFile | Out-String | ConvertFrom-Json
@@ -88,7 +89,8 @@ if ($versionSource -eq "jsonfile") {
         Write-Host "Current value at '$propertyPath': $appVersion";
     }
 
-}else{
+}
+else {
     $appVersion = $appVersionValue
 }
 
