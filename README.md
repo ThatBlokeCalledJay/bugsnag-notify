@@ -1,5 +1,5 @@
 # Bugsnag Notify
-An Azure DevOps build and release task for notifying Bugsnag of your latest release. Available on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/publishers/ThatBlokeCalledJay)
+An Azure DevOps build and release task for notifying Bugsnag of your latest release.
 
 > **Important Notice:** Though [Bugsnag](https://www.bugsnag.com/) have kindly given me permission to use their logo, it is important to note that this extension is not an official Bugsnag product. If you are having any difficulties with this extension, please do not contact Bugsnag, contact me through the usual channels like Q&A and issues. Likewise... If you are having difficulties with Bugsnag, unrelated to this extension, please direct your questions to Bugsnag, and not me.
 
@@ -10,7 +10,7 @@ Notify Bugsnag of your current release. This extension makes use of Bugsnag's [b
 ![Bugsnag Notify Task Fields](https://thatblokecalledjay.blob.core.windows.net/public-images/bn/taskfields.png)
 
 ### Looking for help getting setup
-Checkout the getting started wiki [rigt here](https://github.com/ThatBlokeCalledJay/bugsnag-notify/wiki/Getting-Started).
+Checkout the getting started wiki [right here](https://github.com/ThatBlokeCalledJay/bugsnag-notify/wiki/Getting-Started).
 
 ### Version Number Madness
 
@@ -37,5 +37,5 @@ Why not check out my other extensions:
 **On Visual Studio Marketplace**
 - [ThatBlokeCalledJay](https://marketplace.visualstudio.com/publishers/ThatBlokeCalledJay)
 - [Auto App Version](https://marketplace.visualstudio.com/items?itemName=ThatBlokeCalledJay.thatblokecalledjay-autoappversion)
-- [Bugsnag Auto Version](#)
+- [Bugsnag Auto Version](https://marketplace.visualstudio.com/items?itemName=ThatBlokeCalledJay.thatblokecalledjay-bugsnagautoversion)
 - [Set Json Property](https://marketplace.visualstudio.com/items?itemName=ThatBlokeCalledJay.thatblokecalledjay-setjsonproperty)

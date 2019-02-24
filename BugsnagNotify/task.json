@@ -1,5 +1,5 @@
 {
-  "id": "4d3523a1-906b-4006-a49e-06d3cdf42030",
+  "id": "87f9fccb-42ba-4949-a3c1-e720eb791e2c",
   "name": "BugsnagNotify",
   "friendlyName": "Bugsnag Notify",
   "description": "An Azure DevOps build and release task for notifying Bugsnag of your latest release.",
@@ -12,7 +12,7 @@
   ],
   "demands": [],
   "version": {
-    "Major": "0",
+    "Major": "1",
     "Minor": "0",
     "Patch": "1"
   },
