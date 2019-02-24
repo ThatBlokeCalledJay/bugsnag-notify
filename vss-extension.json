@@ -28,7 +28,7 @@
   "scope": [
     "vso.build"
   ],
-  "description": "An Azure DevOps release task for notifying Bugsnag of your latest release and it's version.",
+  "description": "An Azure DevOps build and release task for notifying Bugsnag of your latest release.",
   "categories": [
     "Azure Pipelines"
   ],

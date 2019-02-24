@@ -2,12 +2,13 @@
   "id": "4d3523a1-906b-4006-a49e-06d3cdf42030",
   "name": "BugsnagNotify",
   "friendlyName": "Bugsnag Notify",
-  "description": "An Azure DevOps release task for notifying Bugsnag of your latest release and it's version.",
+  "description": "An Azure DevOps build and release task for notifying Bugsnag of your latest release.",
   "author": "ThatBlokeCalledJay",
   "helpMarkDown": "[More Information](https://github.com/ThatBlokeCalledJay/bugsnag-notify/wiki)",
   "category": "Azure Pipelines",
   "visibility": [
-    "Release"
+    "Release",
+    "Build"
   ],
   "demands": [],
   "version": {
@@ -103,16 +104,17 @@
       "label": "Source control provider",
       "type": "pickList",
       "required": true,
-      "helpMarkDown": "[Go to the Bugsnag Docs](https://bugsnagbuildapi.docs.apiary.io/)",
-      "visibleRule": "BugsnagSourceControl = true",
-      "defaultValue": "github",
+      "helpMarkDown": "Choose your repository provider. For help with 'Azure DevOps Git (unofficial)' [Goto the Getting Started Docs](https://github.com/ThatBlokeCalledJay/bugsnag-auto-version/wiki/Getting-Started). For the other options [Go to the Bugsnag Docs](https://bugsnagbuildapi.docs.apiary.io/)",
+      "visibleRule": "NotifyBugsnag = true && BugsnagSourceControl = true",
+      "defaultValue": "azure-devops-u",
       "options": {
         "github": "GitHub",
         "github-enterprise": "GitHub Enterprise",
         "bitbucket": "Bitbucket",
         "bitbucket-server": "Bitbucket Server (formerly Stash)",
         "gitlab": "GitLab",
-        "gitlab-onpremise": "GitLab CE or GitLab Enterprise"
+        "gitlab-onpremise": "GitLab CE or GitLab Enterprise",
+        "azure-devops-u":"Azure DevOps Git (unofficial)"
       }
     },
     {
