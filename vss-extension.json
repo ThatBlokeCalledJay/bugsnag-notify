@@ -2,9 +2,9 @@
   "manifestVersion": 1,
   "id": "thatblokecalledjay-bugsnagnotify",
   "name": "Bugsnag Notify",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "publisher": "ThatBlokeCalledJay",
-  "public": false,
+  "public": true,
   "targets": [
     {
       "id": "Microsoft.VisualStudio.Services"
