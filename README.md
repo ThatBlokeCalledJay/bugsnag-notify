@@ -8,6 +8,19 @@ An Azure DevOps build and release task for notifying Bugsnag of your latest rele
 ### Looking for help getting setup.
 Checkout the getting started wiki [rigt here](https://github.com/ThatBlokeCalledJay/bugsnag-notify/wiki/Getting-Started).
 
+### Version Number Madness
+
+Check out the following scenario:
+
+1. Increment your app's current version.
+2. Apply new version number to FileVersion.
+3. Apply new version number to AssemblyVersion.
+4. Ensure .Net pack uses your new version number when generating new packages.
+5. Make sure all new bugs that are sent to Bugsnag include the new version number.
+6. Finally, notify Bugsnag of your latest release, and it's new version number.
+
+If you find yourself in this scenario, [click here](https://thatblokecalledjay.com/blog/view/justanotherday/continuous-integration-and-version-number-madness-b95d40aaf761) to find out how my Azure DevOps extensions can be made to work together to automate this entire process.
+
 ### Looking for a way to auto increment your version numbers?
 Why not check out my other extensions:  
 
