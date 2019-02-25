@@ -14,7 +14,7 @@
   "version": {
     "Major": "1",
     "Minor": "0",
-    "Patch": "1"
+    "Patch": "10"
   },
   "minimumAgentVersion": "2.117.0",
   "instanceNameFormat": "Bugsnag Notify",

@@ -7,7 +7,7 @@ $versionSource = Get-VstsInput -Name AppVersionSource -Require
 
 $jsonFile = Get-VstsInput -Name JsonFile
 $propertyPath = Get-VstsInput -Name PropertyPath
-$appVersionValue = Get-VstsInput -Name AppVersionValue -Require
+$appVersionValue = Get-VstsInput -Name AppVersionValue
 
 # Notification Settings
 
