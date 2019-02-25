@@ -12,7 +12,7 @@ Notify Bugsnag of your current release. This extension makes use of Bugsnag's [b
 ### Looking for help getting setup
 Checkout the getting started wiki [right here](https://github.com/ThatBlokeCalledJay/bugsnag-notify/wiki/Getting-Started).
 
-### Version Number Madness
+### Version number madness
 
 Check out the following scenario:
 
